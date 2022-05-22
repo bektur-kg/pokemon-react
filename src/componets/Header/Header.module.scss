@@ -1,0 +1,43 @@
+.headerContainer {
+  background: goldenrod;
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      svg {
+        font-size: 50px;
+        color: #0035c0;
+      }
+    }
+
+    .navbar {
+      width: 50%;
+
+      .navbarList {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        a {
+          color: whitesmoke;
+          font-size: 22px;
+          transition: .3s;
+
+          &.active {
+            color: #1953ff;
+          }
+
+          &:hover {
+            color: #eadc8f;
+          }
+        }
+      }
+    }
+  }
+}

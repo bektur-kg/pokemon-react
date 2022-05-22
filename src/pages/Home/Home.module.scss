@@ -1,0 +1,41 @@
+.homeContainer{
+  .imgContainer{
+    width: 80%;
+    margin: 20px auto;
+    img{
+      width: 100%;
+    }
+  }
+  .about{
+    width: 90%;
+    margin: 40px auto;
+    h1{
+      margin: 20px;
+      font-size: 30px;
+      font-weight: 500;
+    }
+    p{
+      font-size: 18px;
+      text-align: center;
+      line-height: 20px;
+    }
+  }
+  .showButtonContainer{
+    width: 25%;
+    margin: 30px auto;
+    button{
+      padding: 10px 20px;
+      border-radius: 7px;
+      background: lightsalmon;
+      color: whitesmoke;
+      font-size: 18px;
+      border: 1px solid transparent;
+      transition: .3s;
+      &:hover{
+        background: transparent;
+        color: lightsalmon;
+        border: 1px solid lightsalmon;
+      }
+    }
+  }
+}
